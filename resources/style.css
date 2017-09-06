@@ -1,0 +1,88 @@
+/* Universal Styles */
+
+html {
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.flexContainer {
+    display:flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#company {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    align-items: left;
+    width: 960px;
+    padding: 1rem;
+}
+
+.logo img {
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    align-content: center;
+    align-items: center;
+    height: 1.5rem;
+}
+
+.siteName {
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+    text-transform: uppercase;
+}
+
+#company .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Hero */
+
+#hero {
+    background-image: url(images/moto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newArrival {
+    display:flex;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    width: 20rem;
+    height: 5rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.heading {
+
+}
+
+.heading span {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.heading h2 {
+    font-size: 2rem;
+    line-height: 2.125rem;
+}
+
+/* Nav */
